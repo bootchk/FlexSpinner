@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/bootch/Dropbox/solarmobile/PCBoards/Spinners/FlexSpinner/FlexSpinner.sch</source>
+    <date>Tuesday, May 28, 2019 'AMt' 07:47:56 AM</date>
+    <tool>Eeschema 4.0.1-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>FlexSpinner.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q1">
+      <value>NMOS FET</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-323</footprint>
+      <fields>
+        <field name="SourcePartNo">SSM3K56FSLFCT-ND</field>
+        <field name="Package">SC-75</field>
+      </fields>
+      <libsource lib="device" part="Q_NMOS_GSD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55DF0F8F</tstamp>
+    </comp>
+    <comp ref="DHold1">
+      <value>Schottky BAT43</value>
+      <footprint>Diodes_SMD:SOD-323</footprint>
+      <fields>
+        <field name="SourcePartNo">BAT43WS-FDICT-ND</field>
+      </fields>
+      <libsource lib="device" part="D_Schottky_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55DF2B49</tstamp>
+    </comp>
+    <comp ref="CHold1">
+      <value>.047uF</value>
+      <footprint>Capacitors_SMD:C_0603_HandSoldering</footprint>
+      <fields>
+        <field name="SourcePartNo">399-7931-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55DF2BA7</tstamp>
+    </comp>
+    <comp ref="Rpd1">
+      <value>1M</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <fields>
+        <field name="SourcePartNo">541-1.0MGCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55DF2DDD</tstamp>
+    </comp>
+    <comp ref="M+1">
+      <value>CONN_01X01</value>
+      <footprint>myFootprints:TH400nm</footprint>
+      <fields>
+        <field name="SourcePartNo">Not applicable</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55DF2EE1</tstamp>
+    </comp>
+    <comp ref="M-1">
+      <value>CONN_01X01</value>
+      <footprint>myFootprints:TH400nm</footprint>
+      <fields>
+        <field name="SourcePartNo">Not applicable</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55DF301C</tstamp>
+    </comp>
+    <comp ref="SC1">
+      <value>Solar cell 0.35 Voc</value>
+      <footprint>myFootprints:TEMD</footprint>
+      <fields>
+        <field name="SourcePartNo">751-1046-1-ND</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55DF322E</tstamp>
+    </comp>
+    <comp ref="SC2">
+      <value>Solar cell 0.35 Voc</value>
+      <footprint>myFootprints:TEMD</footprint>
+      <fields>
+        <field name="SourcePartNo">751-1046-1-ND</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55DF32F1</tstamp>
+    </comp>
+    <comp ref="SC3">
+      <value>Solar cell 0.35 Voc</value>
+      <footprint>myFootprints:TEMD</footprint>
+      <fields>
+        <field name="SourcePartNo">751-1046-1-ND</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55DF33C5</tstamp>
+    </comp>
+    <comp ref="Cstor1">
+      <value>0.3mF tantalum</value>
+      <footprint>Capacitors_Tantalum_SMD:TantalC_SizeB_EIA-3528_HandSoldering</footprint>
+      <fields>
+        <field name="SourcePartNo">478-8784-1-ND</field>
+      </fields>
+      <libsource lib="device" part="CP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55DF356B</tstamp>
+    </comp>
+    <comp ref="SC4">
+      <value>Solar cell 0.35 Voc</value>
+      <footprint>myFootprints:TEMD</footprint>
+      <fields>
+        <field name="SourcePartNo">751-1046-1-ND</field>
+      </fields>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CE97884</tstamp>
+    </comp>
+    <comp ref="VMon1">
+      <value>TPS3839-SOT-23 1.1V</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-323</footprint>
+      <fields>
+        <field name="SourcePartNo">296-40759-1-nd</field>
+      </fields>
+      <libsource lib="mySchemSymbols" part="TPS3839-SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CEBFCF5</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D_Schottky_Small">
+      <description>Diode Schottky</description>
+      <footprints>
+        <fp>Diode_*</fp>
+        <fp>D-Pak_TO252AA</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>*_Diode_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NMOS_GSD">
+      <description>Transistor N-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_GSD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="mySchemSymbols" part="TPS3839-SOT-23">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3839-SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Gnd" type="input"/>
+        <pin num="2" name="ResetNot" type="output"/>
+        <pin num="3" name="Vcc" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="mySchemSymbols">
+      <uri>/Users/bootch/Dropbox/solarmobile/PCBoards/mySchemSymbols.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(SC1-Pad1)">
+      <node ref="SC1" pin="1"/>
+      <node ref="SC4" pin="2"/>
+    </net>
+    <net code="2" name="Net-(SC1-Pad2)">
+      <node ref="SC1" pin="2"/>
+      <node ref="SC2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(SC2-Pad2)">
+      <node ref="SC2" pin="2"/>
+      <node ref="SC3" pin="1"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="Q1" pin="2"/>
+      <node ref="VMon1" pin="1"/>
+      <node ref="Rpd1" pin="2"/>
+      <node ref="Cstor1" pin="2"/>
+      <node ref="CHold1" pin="2"/>
+      <node ref="SC3" pin="2"/>
+    </net>
+    <net code="5" name="VCC">
+      <node ref="DHold1" pin="2"/>
+      <node ref="SC4" pin="1"/>
+      <node ref="M+1" pin="1"/>
+      <node ref="Cstor1" pin="1"/>
+    </net>
+    <net code="6" name="VTrig">
+      <node ref="Rpd1" pin="1"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="VMon1" pin="2"/>
+    </net>
+    <net code="7" name="VSense">
+      <node ref="CHold1" pin="1"/>
+      <node ref="DHold1" pin="1"/>
+      <node ref="VMon1" pin="3"/>
+    </net>
+    <net code="8" name="SwitchedGnd">
+      <node ref="Q1" pin="3"/>
+      <node ref="M-1" pin="1"/>
+    </net>
+  </nets>
+</export>
